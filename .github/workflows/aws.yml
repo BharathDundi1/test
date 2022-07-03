@@ -23,6 +23,12 @@ jobs:
         ACCESS_KEY_SECRET: ${{ secrets.ACCESS_KEY_SECRET }}
         REGION: ${{ secrets.REGION }}
       with:
+<<<<<<< HEAD
         access_key_id: $ACCESS_KEY_ID
         access_key_secret: $ACCESS_KEY_SECRET
         region: $REGION
+=======
+        access_key_id: 'AKIAYUOXBHDKRROR2TRK'
+        access_key_secret: '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'
+        region: 'ap-south-1'
+>>>>>>> 22f7b3b8443b1e68939bdc8945f14ef2de638db0
