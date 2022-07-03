@@ -14,10 +14,6 @@ jobs:
       with:
         repository: DevopsGuyXD/Github_actions_custom
         ref: refs/heads/aws_login
-    
-    - name: ls
-      run: |
-          ls
 
     - name: AWS login
       id: aws_login
@@ -26,7 +22,3 @@ jobs:
         access_key_id: 'AKIAYUOXBHDKRROR2TRK'
         access_key_secret: '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'
         region: 'ap-south-1'
-        
-    - name: aws check   
-      run: |
-         aws configure list
