@@ -14,3 +14,11 @@ jobs:
       with:
         repository: DevopsGuyXD/Github_actions_custom
         ref: refs/heads/aws_login
+
+    - name: AWS login
+      id: aws_login
+      uses: ./
+      with:
+        access_key: 'AKIAYUOXBHDKRROR2TRK'
+        secret_key: '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'
+        region: 'ap-south-1'
