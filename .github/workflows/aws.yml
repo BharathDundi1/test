@@ -14,6 +14,10 @@ jobs:
       with:
         repository: DevopsGuyXD/Github_actions_custom
         ref: refs/heads/aws_login
+    
+    - name: ls
+      run: |
+          ls
 
     - name: AWS login
       id: aws_login
