@@ -26,3 +26,7 @@ jobs:
         access_key_id: 'AKIAYUOXBHDKRROR2TRK'
         access_key_secret: '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'
         region: 'ap-south-1'
+        
+    - name: aws check   
+      run: |
+         aws configure list
